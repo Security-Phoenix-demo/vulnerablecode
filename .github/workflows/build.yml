@@ -1,5 +1,8 @@
 name: Build
-on: label
+on:
+  push:
+    branches:
+      - master
 jobs:
   build:
     name: Build
